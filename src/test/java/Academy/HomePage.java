@@ -51,7 +51,7 @@ public class HomePage extends base{
 		ForgotPassword fp= lp.forgotPassword();
 		fp.getEmail().sendKeys("xxx");
 		fp.sendMeInstructions().click();
-		
+		System.out.println("adding for git ");
 		
 		
 		}
